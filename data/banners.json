@@ -1,0 +1,35 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+      {
+        "id": 2,
+        "title": "MEMAK",
+        "title_uz": "MEMAK",
+        "title_ru": "MEMAK",
+        "title_en": "MEMAK",
+        "descriptions": "Professional equipment",
+        "descriptions_uz": "Professional uskunalar",
+        "descriptions_ru": "Профессиональное оборудование",
+        "descriptions_en": "Professional equipment",
+        "image": "https://api.uskunalar.uz/media/Banner_home1/memakk.png",
+        "background": "https://api.uskunalar.uz/media/Banner_background/back.jpg",
+        "created_at": "2022-06-29T16:26:54.352000+05:00"
+      },
+      {
+        "id": 3,
+        "title": "Zicar",
+        "title_uz": "Zicar",
+        "title_ru": "Zicar",
+        "title_en": "Zicar",
+        "descriptions": "The best quality",
+        "descriptions_uz": "Eng yaxshi sifat",
+        "descriptions_ru": "Самое лучшее качество",
+        "descriptions_en": "The best quality",
+        "image": "https://api.uskunalar.uz/media/Banner_home1/zicar-transformed-removebg-preview.png",
+        "background": "https://api.uskunalar.uz/media/Banner_background/backzicar.jpg",
+        "created_at": "2022-07-02T16:03:23.218000+05:00"
+      }
+    ]
+  }

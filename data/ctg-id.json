@@ -1,0 +1,368 @@
+[
+    {
+        "id": 1,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/memak_tbL7q4A.svg",
+        "title": "Memak",
+        "product_count": 3
+    },
+    {
+        "id": 41,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_SfH6oig.svg",
+        "title": "Sport anjomlari",
+        "product_count": 0
+    },
+    {
+        "id": 42,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_j2bbBRg.svg",
+        "title": "Attraksionlar",
+        "product_count": 0
+    },
+    {
+        "id": 2,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/packing_MOiuIjz.svg",
+        "title": "Qadoqlash uskunalari",
+        "product_count": 0
+    },
+    {
+        "id": 3,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/memak_oqQyrN7.svg",
+        "title": "MEMAK",
+        "product_count": 0
+    },
+    {
+        "id": 4,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/ecar.svg",
+        "title": "Elektromobil",
+        "product_count": 0
+    },
+    {
+        "id": 5,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/foodindustry.svg",
+        "title": "Oziq-ovqat sanoati",
+        "product_count": 0
+    },
+    {
+        "id": 6,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/bread2.svg",
+        "title": "Non va non mahsulotlarini ishlab chiqarish",
+        "product_count": 0
+    },
+    {
+        "id": 7,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/cons-yellow.svg",
+        "title": "Qurilish sanoati",
+        "product_count": 0
+    },
+    {
+        "id": 8,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/furniture.svg",
+        "title": "Yog`ochni qayta ishlash  va mebel ishlab chiqarish uskunalari",
+        "product_count": 0
+    },
+    {
+        "id": 9,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/specialmachines_yeBBX4h.svg",
+        "title": "Maxsus texnikalar",
+        "product_count": 0
+    },
+    {
+        "id": 10,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/packing_X1Ul9CH.svg",
+        "title": "Qadoqlash uskunalari",
+        "product_count": 0
+    },
+    {
+        "id": 11,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/paper-industry.svg",
+        "title": "Qog'ozni qayta ishlash sanoati",
+        "product_count": 0
+    },
+    {
+        "id": 12,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/milk.svg",
+        "title": "Sut mahsulotlarini qayta ishlash sanoati",
+        "product_count": 0
+    },
+    {
+        "id": 13,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/candy.svg",
+        "title": "Qandolatchilik mahsulotlarini ishlab chiqarish",
+        "product_count": 0
+    },
+    {
+        "id": 14,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/windmill.svg",
+        "title": "Un tegirmonlari",
+        "product_count": 0
+    },
+    {
+        "id": 15,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/meat.svg",
+        "title": "Kolbasa va go`sht mahsulotlarini ishlab chiqarish",
+        "product_count": 0
+    },
+    {
+        "id": 16,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/drinks.svg",
+        "title": "Gazli va gazsiz ichimliklar sanoati",
+        "product_count": 0
+    },
+    {
+        "id": 17,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/pressmachine.svg",
+        "title": "Gidravlik presslar",
+        "product_count": 0
+    },
+    {
+        "id": 18,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/metal_icon_ZQO6KdN.svg",
+        "title": "Metalni qayta ishlash sanoati",
+        "product_count": 0
+    },
+    {
+        "id": 19,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon.svg",
+        "title": "Polietilen mahsulotlar ishlab chiqarish sanoati",
+        "product_count": 0
+    },
+    {
+        "id": 20,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_c6Jh9RQ.svg",
+        "title": "Lazer uskunalari",
+        "product_count": 0
+    },
+    {
+        "id": 21,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_obk6O3P.svg",
+        "title": "Qishloq xo`jaligi uskunalari",
+        "product_count": 0
+    },
+    {
+        "id": 22,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_Z6OUsyS.svg",
+        "title": "Payvandlash uskunalari",
+        "product_count": 0
+    },
+    {
+        "id": 23,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_IgKa3FP.svg",
+        "title": "Metallurgiya uskunalari",
+        "product_count": 0
+    },
+    {
+        "id": 24,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/plastic_production_icon_3vD45T6.svg",
+        "title": "Plastik mahsulotlarini ishlab chiqarish",
+        "product_count": 0
+    },
+    {
+        "id": 25,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_O1bw1T0.svg",
+        "title": "Rezina qayta ishlash sanoati",
+        "product_count": 0
+    },
+    {
+        "id": 26,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_CcvRYV6.svg",
+        "title": "To`qimachilik va tikuvchilik sanoati",
+        "product_count": 0
+    },
+    {
+        "id": 27,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_ho3Pj1Z.svg",
+        "title": "Bir martalik idishlarni ishlab chiqarish",
+        "product_count": 0
+    },
+    {
+        "id": 28,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_5Jf1wqO.svg",
+        "title": "Filtrlash uskunalari",
+        "product_count": 0
+    },
+    {
+        "id": 29,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_BpgsTkQ.svg",
+        "title": "Konsentratsiya uskunalari",
+        "product_count": 0
+    },
+    {
+        "id": 30,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_vpdq19c.svg",
+        "title": "Meditsina uskunalari",
+        "product_count": 0
+    },
+    {
+        "id": 31,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_Y8bE9MX.svg",
+        "title": "Kosmetologiya qurilmalari",
+        "product_count": 0
+    },
+    {
+        "id": 32,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_tCBhqs9.svg",
+        "title": "Farmatsevtika uskunalari",
+        "product_count": 0
+    },
+    {
+        "id": 33,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_eaMgEZI.svg",
+        "title": "Shisha va oynalarni qayta ishlash sanoati",
+        "product_count": 0
+    },
+    {
+        "id": 34,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_fM5Vo3s.svg",
+        "title": "Toshni qayta ishlash sanoati",
+        "product_count": 0
+    },
+    {
+        "id": 35,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_FxAYGq7.svg",
+        "title": "Lak-bo`yoq sanoati",
+        "product_count": 0
+    },
+    {
+        "id": 36,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_vooS9RL.svg",
+        "title": "Poligrafiya / Tipografiya uskunalari",
+        "product_count": 0
+    },
+    {
+        "id": 37,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_HPEGI7Z.svg",
+        "title": "Charm sanoati va teri-rezina poyabzal ishlab chiqarish",
+        "product_count": 0
+    },
+    {
+        "id": 38,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_roZcU19.svg",
+        "title": "Avtomobillarga xizmat ko'rsatish jihozlari",
+        "product_count": 0
+    },
+    {
+        "id": 39,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_0jhdm3e.svg",
+        "title": "Xomashyo",
+        "product_count": 0
+    },
+    {
+        "id": 40,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_ElNJSB9.svg",
+        "title": "Lift sanoati",
+        "product_count": 0
+    },
+    {
+        "id": 43,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_GOOMahL.svg",
+        "title": "Zargarlik uskunalari",
+        "product_count": 0
+    },
+    {
+        "id": 44,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_QhfOxPw.svg",
+        "title": "Sanoat isitish qozonlari",
+        "product_count": 0
+    },
+    {
+        "id": 45,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_cfosu5j.svg",
+        "title": "Chiqindilarni qayta ishlash sanoati",
+        "product_count": 0
+    },
+    {
+        "id": 46,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_nDKjeTy.svg",
+        "title": "Neftni qayta ishlash sanoati",
+        "product_count": 0
+    },
+    {
+        "id": 47,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_xKvtQUA.svg",
+        "title": "Burg`ulash uskunalari",
+        "product_count": 0
+    },
+    {
+        "id": 48,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_2SYu0nz.svg",
+        "title": "Kimyo sanoati",
+        "product_count": 0
+    },
+    {
+        "id": 49,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_Ql2XcnS.svg",
+        "title": "Simli mahsulotlar ishlab chiqarish",
+        "product_count": 0
+    },
+    {
+        "id": 50,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_Ncj4mHI.svg",
+        "title": "Kabelni qayta ishlash",
+        "product_count": 0
+    },
+    {
+        "id": 51,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_kf4bvOL.svg",
+        "title": "Tog`-kon uskunalari",
+        "product_count": 0
+    },
+    {
+        "id": 52,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_S5wpg7d.svg",
+        "title": "Sinov laboratoriya uskunalari",
+        "product_count": 0
+    },
+    {
+        "id": 53,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_X9K6y6G.svg",
+        "title": "Tekshirish punktlari uchun uskunalari",
+        "product_count": 0
+    },
+    {
+        "id": 54,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_JCT2ZDs.svg",
+        "title": "Elektron platalar ishlab chiqarish sanoati",
+        "product_count": 0
+    },
+    {
+        "id": 55,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_8BMPqGF.svg",
+        "title": "Noto`qima matolardan mahsulotlar ishlab chiqarish",
+        "product_count": 0
+    },
+    {
+        "id": 56,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_sjacywr.svg",
+        "title": "Elektr generatorlari",
+        "product_count": 0
+    },
+    {
+        "id": 57,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_z71eUPu.svg",
+        "title": "Meva sabzavotlarni yuvish va tozalash",
+        "product_count": 0
+    },
+    {
+        "id": 58,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_fp5fZC1.svg",
+        "title": "Yong`inga qarshi uskunalar va asboblar",
+        "product_count": 0
+    },
+    {
+        "id": 59,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_9YkdVUu.svg",
+        "title": "Yoqilg`i quyish shaxobchalari",
+        "product_count": 0
+    },
+    {
+        "id": 60,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_0pWuolg.svg",
+        "title": "Kimyoviy tozalash",
+        "product_count": 0
+    },
+    {
+        "id": 61,
+        "icon": "http://uskunalar.uz.fazliddindehkanoff.uz/media/main_icon_s3Ajwvh_vs78OEZ.svg",
+        "title": "Yog'och va ko'mirni qayta ishlash",
+        "product_count": 0
+    }
+]
