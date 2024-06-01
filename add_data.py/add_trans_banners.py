@@ -14,7 +14,7 @@ def download_image(image_url, save_path):
         return "images/LOGO.png"
 
 
-url = "https://uskunalar.uz.fazliddindehkanoff.uz/admin/api/linecategory/add/"
+url = "https://uskunalar.uz.fazliddindehkanoff.uz/admin/api/video/add/"
 headers = {
     "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
     "accept-language": "uz-UZ,uz;q=0.9,en-GB;q=0.8,en;q=0.7,ru-RU;q=0.6,ru;q=0.5,en-US;q=0.4",
@@ -31,27 +31,42 @@ headers = {
     "referer": url,
 }
 
-with open("data/lines-category.json") as f:
-    sub_categorys = json.load(f)
+with open("data/videoes.json") as f:
+    lines = json.load(f)
+
+
 # The multipart form data should be constructed accordingly
-categorys = sub_categorys['results']
+
 base_url = "https://uskunalar.uz.fazliddindehkanoff.uz"
 
 session = login_to_admin(base_url, "admin", "123")
 
-
-for data in categorys:
+for data in lines:
     token = get_csrf_token(session, url)
+    if data['description_uz'] == "":
+        data['description_uz'] = "non"
+    if data['description_ru'] == "":
+        data['description_ru'] = "non"
+    if data['description_en'] == "":
+        data['description_en'] = "non"
     multipart_data = {
         "csrfmiddlewaretoken": token,
-        "title_en": data['category_en'],
-        "title_uz": data['category_uz'],
-        "title_ru": data['category_ru'],
+        "title_en": data['title_en'],
+        "title_uz": data['title_uz'],
+        "title_ru": data['title_ru'],
+        "description_en": data['description_en'],
+        "description_uz": data['description_uz'],
+        "description_ru": data['description_ru'],
+        "video_link": data['url'],
         "_save": ""
     }
+
     response = session.post(url, headers=headers, data=multipart_data)
+    # with open("log.html", "w") as f:
+    #     f.write(response.text)
     print(response.status_code)
 #     # print(multipart_data)
     # break
-#     # sleep(1)
+    # sleep(1)
 
+# print(l)

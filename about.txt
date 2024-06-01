@@ -1,92 +1,16 @@
-abouts: 12
-all-products: 1189
-banners: 2
-biznes: 0
-blogs: 0
-categories: 59
-galleries: 0
-lines: 59
-partners: 4
+abouts: 12 ---
+all-products: 1189 ok
+banners: 2 ok
+biznes: 0 ok
+blogs: 0 ok
+categories: 59 ok
+galleries: 0 ok
+lines: 59 ok
+lines-categories: 18 ok
+partners: 4 ok
 pr-categories ---
 pr-subcategories ---
 sub_categories: 689
-trans-banner: 4
-videos: 12
-works: 14
-daskddsddswddes
-
-fetch("https://smartup.merospharm.uz/", {
-    "cache": "default",
-    "credentials": "include",
-    "headers": {
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        "Accept-Language": "en-CA,en-US;q=0.9,en;q=0.8",
-        "If-Modified-Since": "Thu, 07 Mar 2024 15:08:26 GMT",
-        "If-None-Match": "W/\"139433-1709824106000\"",
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15"
-    },
-    "method": "GET",
-    "mode": "cors",
-    "redirect": "follow",
-    "referrer": "https://smartup.merospharm.uz/login.html",
-    "referrerPolicy": "strict-origin-when-cross-origin"
-})
-
-
-
-fetch("https://smartup.merospharm.uz/b/core/s$log_in", {
-    "body": "login=nimadur%40mail.com&password=574cc4dc20ce0a4c07cf5525ff5bc6acc5d3e325&lang_code=ru",
-    "cache": "default",
-    "credentials": "include",
-    "headers": {
-        "Accept": "*/*",
-        "Accept-Language": "en-CA,en-US;q=0.9,en;q=0.8",
-        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15",
-        "X-Requested-With": "XMLHttpRequest"
-    },
-    "method": "POST",
-    "mode": "cors",
-    "redirect": "follow",
-    "referrer": "https://smartup.merospharm.uz/login.html",
-    "referrerPolicy": "strict-origin-when-cross-origin"
-})
-
-
-fetch("https://smartup.merospharm.uz/b/core/s$log_in", {
-    "body": "login=nimadur%40mail.com&password=bf20d4ccad75080c54a59114123dd90976a44e9f&lang_code=ru",
-    "cache": "default",
-    "credentials": "include",
-    "headers": {
-        "Accept": "*/*",
-        "Accept-Language": "en-CA,en-US;q=0.9,en;q=0.8",
-        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15",
-        "X-Requested-With": "XMLHttpRequest"
-    },
-    "method": "POST",
-    "mode": "cors",
-    "redirect": "follow",
-    "referrer": "https://smartup.merospharm.uz/login.html",
-    "referrerPolicy": "strict-origin-when-cross-origin"
-})
-
-
-fetch("https://smartup.merospharm.uz/b/core/s$log_in", {
-    "body": "login=dsaf%40mail.com&password=a26edc87d9c1a87b75a6201f5723cdec26301d29&lang_code=ru",
-    "cache": "default",
-    "credentials": "include",
-    "headers": {
-        "Accept": "*/*",
-        "Accept-Language": "en-CA,en-US;q=0.9,en;q=0.8",
-        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15",
-        "X-Requested-With": "XMLHttpRequest"
-    },
-    "method": "POST",
-    "mode": "cors",
-    "redirect": "follow",
-    "referrer": "https://smartup.merospharm.uz/login.html",
-    "referrerPolicy": "strict-origin-when-cross-origin"
-})
-
+trans-banner: 4 ---
+videos: 12 ok
+works: 14 ok
