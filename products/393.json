@@ -1,0 +1,157 @@
+{
+    "sku": 393,
+    "category": {
+        "id": 79,
+        "category": "Wood and coal processing",
+        "category_uz": "Yog'och va ko'mirni qayta ishlash",
+        "category_ru": "Переработка древесины и угля",
+        "category_en": "Wood and coal processing",
+        "image": "https://api.uskunalar.uz/media/category_image/main_icon_s3Ajwvh.svg",
+        "my_order": 60,
+        "created_at": "2022-10-26T16:52:27.206000+05:00"
+    },
+    "subcategory": {
+        "id": 721,
+        "image": null,
+        "subcategory": "Production of pressed coal briquettes",
+        "subcategory_uz": "Presslangan ko'mir briket ishlab chiqarish",
+        "subcategory_ru": "Производство прессованных угольных брикетов",
+        "subcategory_en": "Production of pressed coal briquettes",
+        "my_order": 650,
+        "created_at": "2022-10-26T16:54:17.852000+05:00",
+        "category": 79,
+        "category_uz": 79,
+        "category_ru": 79,
+        "category_en": 79
+    },
+    "background": {
+        "color": "Qizil",
+        "image": "https://api.uskunalar.uz/media/banner_back/red.svg"
+    },
+    "specifications": [
+        {
+            "id": 2455,
+            "product_customer": "Model",
+            "product_customer_uz": "Model",
+            "product_customer_ru": "Модель",
+            "product_customer_en": "Model",
+            "product_number": "US-HY-140",
+            "product_number_uz": "US-HY-140",
+            "product_number_ru": "US-HY-140",
+            "product_number_en": "US-HY-140",
+            "product_image": null
+        },
+        {
+            "id": 2457,
+            "product_customer": "Power (KW)",
+            "product_customer_uz": "Quvvat (KW)",
+            "product_customer_ru": "Мощность (KW)",
+            "product_customer_en": "Power (KW)",
+            "product_number": "7.5 KW",
+            "product_number_uz": "7.5 KW",
+            "product_number_ru": "7.5 KW",
+            "product_number_en": "7.5 KW",
+            "product_image": null
+        },
+        {
+            "id": 2458,
+            "product_customer": "Performance",
+            "product_customer_uz": "Ishlab chiqarish quvvati",
+            "product_customer_ru": "Производительность",
+            "product_customer_en": "Performance",
+            "product_number": "50 times/min",
+            "product_number_uz": "50 marotaba/daq",
+            "product_number_ru": "50 раз/мин",
+            "product_number_en": "50 times/min",
+            "product_image": null
+        },
+        {
+            "id": 2459,
+            "product_customer": "Dimentions",
+            "product_customer_uz": "Uskuna o’lchami",
+            "product_customer_ru": "Размеры",
+            "product_customer_en": "Dimentions",
+            "product_number": "1.3x1.4x1.86 m",
+            "product_number_uz": "1.3x1.4x1.86 m",
+            "product_number_ru": "1.3x1.4x1.86 м",
+            "product_number_en": "1.3x1.4x1.86 m",
+            "product_image": null
+        },
+        {
+            "id": 2460,
+            "product_customer": "Weight",
+            "product_customer_uz": "Og’irligi",
+            "product_customer_ru": "Вес",
+            "product_customer_en": "Weight",
+            "product_number": "2200 kg",
+            "product_number_uz": "2200 kg",
+            "product_number_ru": "2200 кг",
+            "product_number_en": "2200 kg",
+            "product_image": null
+        }
+    ],
+    "images": [
+        {
+            "id": 1738,
+            "image": "https://api.uskunalar.uz/media/products/393_mTrVhFe.png"
+        },
+        {
+            "id": 1739,
+            "image": "https://api.uskunalar.uz/media/products/393_1_WXMPjkZ.jpg"
+        },
+        {
+            "id": 1740,
+            "image": "https://api.uskunalar.uz/media/products/393_2_X5qERZE.jpg"
+        },
+        {
+            "id": 1741,
+            "image": "https://api.uskunalar.uz/media/products/393_3_6Ii26Fy.jpg"
+        },
+        {
+            "id": 1742,
+            "image": "https://api.uskunalar.uz/media/products/393_4_WkBAOs6.jpg"
+        }
+    ],
+    "title": "Pressed coal briquette production equipment",
+    "title_uz": "Ko'mir briket ishlab chiqarish uskunasi",
+    "title_ru": "Оборудование для производства прессованных угольных брикетов",
+    "title_en": "Pressed coal briquette production equipment",
+    "pdf": "https://api.uskunalar.uz/media/pdf/20-02.pdf",
+    "city": null,
+    "city_uz": null,
+    "city_ru": null,
+    "city_en": null,
+    "CIP": true,
+    "DAF": false,
+    "EXW": false,
+    "FCA": false,
+    "price": "9300",
+    "discount": "0",
+    "inbox": "",
+    "delivery": "Под заказ",
+    "short_description": "<p><strong>This equipment presses coal and brings it to the form of briquettes.</strong></p>\r\n\r\n<p>It consumes 7.5 Kw of electricity in 1 hour. The equipment has the ability to press 50 times per minute.</p>\r\n\r\n<p>The heat calorie of the finished product can heat up to 500, 700, 800, 1000, 1200 temperatures when burning in a closed form.</p>\r\n\r\n<p>The necessary additives for the production of the product: only water and coal powder. If you want, you can mix in a certain amount of powdered wood waste.</p>\r\n\r\n<p>The appearance of the finished product is different, such as round, hexagonal, square, etc., one of which is the bee-shaped briquette. This mold produces 1 piece in 1 press and can produce an average of 60 finished products in 1 hour. Six-sided briquettes can be pressed up to 3-4 pieces in 1 pressing.</p>\r\n\r\n<p>The total size of the equipment is 1.300 x 1.400 x 1.8600 m and its weight is 2200 kg.</p>\r\n\r\n<p>Places of use of the product: Industrial heating boilers, heating ovens of various sizes used at home, and used as fuel in kitchens, restaurants, various catering establishments, devices used for cooking food.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"7\" style=\"background-color:#333333; text-align:center\"><span style=\"color:#ffffff\">PICTURES OF THE FINISHED PRODUCT</span></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"height:9%; text-align:center; width:9%\"><img alt=\"ko'mir-briket\" src=\"/media/uploads/2023/01/20/393_6.png\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"height:9%; text-align:center; width:9%\"><img alt=\"ko'mir-briket\" src=\"/media/uploads/2023/01/20/393_7.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"height:9%; text-align:center; width:9%\"><img alt=\"ko'mir-briket\" src=\"/media/uploads/2023/01/20/393_8.png\" style=\"height:70%; width:70%\" /></td>\r\n\t\t\t<td style=\"height:9%; text-align:center; width:9%\"><img alt=\"ko'mir-briket\" src=\"/media/uploads/2023/01/20/393_9.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"height:9%; text-align:center; width:9%\"><img alt=\"ko'mir-briket\" src=\"/media/uploads/2023/01/20/393_10.png\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"height:9%; text-align:center; width:9%\"><img alt=\"ko'mir-briket\" src=\"/media/uploads/2023/01/20/393_11.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>",
+    "short_description_uz": "<p><strong>Ushbu uskuna ko&rsquo;mirni presslab briket shakliga (holatiga)&nbsp;keltirib beradi.</strong></p>\r\n\r\n<p>1 soatda 7.5 Kw elektr&nbsp;energiyasi&nbsp;sarflaydi.&nbsp;Uskuna daqiqasiga 50 marotaba presslash imkoniyatiga &nbsp;ega.&nbsp;</p>\r\n\r\n<p>Tayyor mahsulotning issiqlik kaloriyasi yopiq shaklda yonganida 500, 700, 800, 1000, 1200 temperaturagacha issiqlik bera oladi.</p>\r\n\r\n<p>Mahsulotni ishlab chiqarish uchun kerakli qo&#39;shimchalar: suv va ko&#39;mir kukuni xolos. Xohlasangiz yog&#39;ochning maydalangan kukunsimon chiqindilarini ma&#39;lum miqdorda aralashtirishingiz mumkin.</p>\r\n\r\n<p>Tayyor mahsulotning ko&#39;rinishi turlicha bo&#39;lib, bular aylana, olti qirralik, kvadrat shaklida va h.k, shulardan bittasi asalari shaklidagi briket. Bu qolipimiz&nbsp;1 preslashda 1 dona chiqaradi va 1 soatda o&#39;rtacha 60 ta tayyor mahsulot chiqarish imkoniyatiga ega. Olti qirrali briketni esa 1 preslashda 3-4 donagacha presslab bera oladi.</p>\r\n\r\n<p>Uskunaning umumiy o&#39;lchami 1.300 x 1.400 x 1.8600 m hamda og&#39;irligi 2200 kgni tashkil etadi.</p>\r\n\r\n<p>Mahsulotdan foydalanish joylari: Sanoat isitish qozonlari, Uy sharoyitda foydalaniladigan har xil o&#39;lchamdagi isitish pechlari&nbsp;va oshxona restoranlarda, turli xil ovqatlanish shaxobchalarida, taomlarni pishirishda foydalaniladigan moslamalarda yoqilg&#39;i sifatida foydalaniladi.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"7\" style=\"background-color:#333333; text-align:center\"><span style=\"color:#ffffff\">TAYYOR MAHSULOT RASMLARI</span></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"height:9%; text-align:center; width:9%\"><img alt=\"ko'mir-briket\" src=\"/media/uploads/2023/01/20/393_6.png\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"height:9%; text-align:center; width:9%\"><img alt=\"ko'mir-briket\" src=\"/media/uploads/2023/01/20/393_7.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"height:9%; text-align:center; width:9%\"><img alt=\"ko'mir-briket\" src=\"/media/uploads/2023/01/20/393_8.png\" style=\"height:70%; width:70%\" /></td>\r\n\t\t\t<td style=\"height:9%; text-align:center; width:9%\"><img alt=\"ko'mir-briket\" src=\"/media/uploads/2023/01/20/393_9.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"height:9%; text-align:center; width:9%\"><img alt=\"ko'mir-briket\" src=\"/media/uploads/2023/01/20/393_10.png\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"height:9%; text-align:center; width:9%\"><img alt=\"ko'mir-briket\" src=\"/media/uploads/2023/01/20/393_11.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>",
+    "short_description_ru": "<p><strong>Это оборудование прессует уголь и доводит его до формы брикетов.</strong></p>\r\n\r\n<p>Потребляет 7,5 кВт электроэнергии за 1 час.&nbsp;Оборудование имеет возможность нажатия 50 раз в минуту.</p>\r\n\r\n<p>Тепловая калорийность готового изделия может нагреваться до 500, 700, 800, 1000, 1200 температур при горении в закрытом виде.</p>\r\n\r\n<p>Необходимые добавки для производства продукта: только вода и угольный порошок. При желании можно подмешать некоторое количество измельченных в порошок древесных отходов.</p>\r\n\r\n<p>Внешний вид готового продукта бывает разным, например, круглым, шестиугольным, квадратным и т. д., одним из которых является брикет в форме пчелы. Эта пресс-форма производит 1 деталь за 1 пресс и может производить в среднем 60 готовых изделий за 1 час. Шестигранные брикеты можно прессовать до 3-4 штук за 1 прессование.</p>\r\n\r\n<p>Габаритные размеры оборудования составляют 1.300 х 1.400 х 1.8600 м, а его вес составляет 2 200 кг.</p>\r\n\r\n<p>Места использования продукта: Промышленные отопительные котлы, отопительные печи различных размеров, используемые в быту, а также используемые в качестве топлива на кухнях, в ресторанах, различных заведениях общественного питания, устройства для приготовления пищи.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"7\" style=\"background-color:#333333; text-align:center\"><span style=\"color:#ffffff\">ФОТОГРАФИИ ГОТОВОГО ПРОДУКТА</span></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"height:9%; text-align:center; width:9%\"><img alt=\"ko'mir-briket\" src=\"/media/uploads/2023/01/20/393_6.png\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"height:9%; text-align:center; width:9%\"><img alt=\"ko'mir-briket\" src=\"/media/uploads/2023/01/20/393_7.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"height:9%; text-align:center; width:9%\"><img alt=\"ko'mir-briket\" src=\"/media/uploads/2023/01/20/393_8.png\" style=\"height:70%; width:70%\" /></td>\r\n\t\t\t<td style=\"height:9%; text-align:center; width:9%\"><img alt=\"ko'mir-briket\" src=\"/media/uploads/2023/01/20/393_9.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"height:9%; text-align:center; width:9%\"><img alt=\"ko'mir-briket\" src=\"/media/uploads/2023/01/20/393_10.png\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"height:9%; text-align:center; width:9%\"><img alt=\"ko'mir-briket\" src=\"/media/uploads/2023/01/20/393_11.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>",
+    "short_description_en": "<p><strong>This equipment presses coal and brings it to the form of briquettes.</strong></p>\r\n\r\n<p>It consumes 7.5 Kw of electricity in 1 hour. The equipment has the ability to press 50 times per minute.</p>\r\n\r\n<p>The heat calorie of the finished product can heat up to 500, 700, 800, 1000, 1200 temperatures when burning in a closed form.</p>\r\n\r\n<p>The necessary additives for the production of the product: only water and coal powder. If you want, you can mix in a certain amount of powdered wood waste.</p>\r\n\r\n<p>The appearance of the finished product is different, such as round, hexagonal, square, etc., one of which is the bee-shaped briquette. This mold produces 1 piece in 1 press and can produce an average of 60 finished products in 1 hour. Six-sided briquettes can be pressed up to 3-4 pieces in 1 pressing.</p>\r\n\r\n<p>The total size of the equipment is 1.300 x 1.400 x 1.8600 m and its weight is 2200 kg.</p>\r\n\r\n<p>Places of use of the product: Industrial heating boilers, heating ovens of various sizes used at home, and used as fuel in kitchens, restaurants, various catering establishments, devices used for cooking food.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"7\" style=\"background-color:#333333; text-align:center\"><span style=\"color:#ffffff\">PICTURES OF THE FINISHED PRODUCT</span></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"height:9%; text-align:center; width:9%\"><img alt=\"ko'mir-briket\" src=\"/media/uploads/2023/01/20/393_6.png\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"height:9%; text-align:center; width:9%\"><img alt=\"ko'mir-briket\" src=\"/media/uploads/2023/01/20/393_7.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"height:9%; text-align:center; width:9%\"><img alt=\"ko'mir-briket\" src=\"/media/uploads/2023/01/20/393_8.png\" style=\"height:70%; width:70%\" /></td>\r\n\t\t\t<td style=\"height:9%; text-align:center; width:9%\"><img alt=\"ko'mir-briket\" src=\"/media/uploads/2023/01/20/393_9.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"height:9%; text-align:center; width:9%\"><img alt=\"ko'mir-briket\" src=\"/media/uploads/2023/01/20/393_10.png\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"height:9%; text-align:center; width:9%\"><img alt=\"ko'mir-briket\" src=\"/media/uploads/2023/01/20/393_11.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>",
+    "long_description": "<p><strong>Pressed coal briquette production equipment US-HY-140.</strong></p>\r\n\r\n<p><strong>Technical indicators of the equipment:</strong></p>\r\n\r\n<ul>\r\n\t<li>Model: US-HY-140.</li>\r\n\t<li>Power: 7.5 Kw.</li>\r\n\t<li>Production capacity: pressing number 50 times/minute;<br />\r\n\tbee-shaped briquette in 1 pressing/1 piece;<br />\r\n\tsix-sided briquettes 3-4 pieces/1 pressing.</li>\r\n\t<li>Weight: 2200 kg.</li>\r\n\t<li>Dimensions: 1.3 x 1.4 x 1.86 m.</li>\r\n</ul>",
+    "long_description_uz": "<p><strong>Presslangan ko&#39;mir briket ishlab chiqarish uskunasi US-HY-140.</strong></p>\r\n\r\n<p><strong>Uskunaning texnik ko&rsquo;rsatkichlari:</strong></p>\r\n\r\n<ul>\r\n\t<li>Model:&nbsp;US-HY-140.</li>\r\n\t<li>Quvvat: 7.5&nbsp;Kw.</li>\r\n\t<li>Ishlab chiqarish quvvati:&nbsp;presslash soni 50 marotaba/daqiqasiga;<br />\r\n\tasalari shaklidagi briketni 1 preslashda/1 dona;&nbsp;<br />\r\n\tolti qirrali briketni 1 preslashda/3-4 dona.</li>\r\n\t<li>Og&rsquo;irligi: 2200 kg.</li>\r\n\t<li>O&rsquo;lchamlari: 1.3 x 1.4 x 1.86&nbsp;m.</li>\r\n</ul>",
+    "long_description_ru": "<p><strong>Оборудование для производства прессованных угольных брикетов US-HY-140.</strong></p>\r\n\r\n<p><strong>Технические показатели оборудования:</strong></p>\r\n\r\n<ul>\r\n\t<li>Модель: US-HY-140.</li>\r\n\t<li>Мощность: 7,5 кВт.</li>\r\n\t<li>Производственная мощность: число прессовок 50 раз/минуту;<br />\r\n\tбрикет пчелообразный в 1 прессовке/1 шт.;<br />\r\n\tшестигранные брикеты 3-4 шт/1 пресс.</li>\r\n\t<li>Вес: 2200 кг.</li>\r\n\t<li>Размеры: 1,3х1,4х1,86 м.</li>\r\n</ul>",
+    "long_description_en": "<p><strong>Pressed coal briquette production equipment US-HY-140.</strong></p>\r\n\r\n<p><strong>Technical indicators of the equipment:</strong></p>\r\n\r\n<ul>\r\n\t<li>Model: US-HY-140.</li>\r\n\t<li>Power: 7.5 Kw.</li>\r\n\t<li>Production capacity: pressing number 50 times/minute;<br />\r\n\tbee-shaped briquette in 1 pressing/1 piece;<br />\r\n\tsix-sided briquettes 3-4 pieces/1 pressing.</li>\r\n\t<li>Weight: 2200 kg.</li>\r\n\t<li>Dimensions: 1.3 x 1.4 x 1.86 m.</li>\r\n</ul>",
+    "price_title": null,
+    "price_title_uz": null,
+    "price_title_ru": null,
+    "price_title_en": null,
+    "price_image": null,
+    "price_short_description": null,
+    "price_short_description_uz": null,
+    "price_short_description_ru": null,
+    "price_short_description_en": null,
+    "price_long_description": null,
+    "price_long_description_uz": null,
+    "price_long_description_ru": null,
+    "price_long_description_en": null,
+    "video": null,
+    "view_count": 13199,
+    "created_at": "2022-10-26T16:56:42.997000+05:00",
+    "country": 1
+}

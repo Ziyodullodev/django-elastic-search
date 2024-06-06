@@ -1,0 +1,189 @@
+{
+    "sku": 396,
+    "category": {
+        "id": 76,
+        "category": "Wood processing and furniture manufacturing industry equipment",
+        "category_uz": "Yog`ochni qayta ishlash  va mebel ishlab chiqarish uskunalari",
+        "category_ru": "Оборудование для деревообрабатывающей и мебельной промышленности",
+        "category_en": "Wood processing and furniture manufacturing industry equipment",
+        "image": "https://api.uskunalar.uz/media/category_image/furniture.svg",
+        "my_order": 6,
+        "created_at": "2022-05-24T12:32:09.377000+05:00"
+    },
+    "subcategory": {
+        "id": 669,
+        "image": "https://api.uskunalar.uz/media/sub_image/9.png",
+        "subcategory": "Edge banding machines",
+        "subcategory_uz": "Tasma yopishtirish uskunalari (Kromka)",
+        "subcategory_ru": "Кромкооблицовочные станки",
+        "subcategory_en": "Edge banding machines",
+        "my_order": 616,
+        "created_at": "2022-06-28T10:31:45.235000+05:00",
+        "category": 76,
+        "category_uz": 76,
+        "category_ru": 76,
+        "category_en": 76
+    },
+    "background": {
+        "color": "Olovrang",
+        "image": "https://api.uskunalar.uz/media/banner_back/orange.svg"
+    },
+    "specifications": [
+        {
+            "id": 2477,
+            "product_customer": "Model",
+            "product_customer_uz": "Model",
+            "product_customer_ru": "Модель",
+            "product_customer_en": "Model",
+            "product_number": "US-MY-60",
+            "product_number_uz": "US-MY-60",
+            "product_number_ru": "US-MY-60",
+            "product_number_en": "US-MY-60",
+            "product_image": null
+        },
+        {
+            "id": 2478,
+            "product_customer": "Voltage",
+            "product_customer_uz": "Voltage",
+            "product_customer_ru": "Вольтаж",
+            "product_customer_en": "Voltage",
+            "product_number": "680 W",
+            "product_number_uz": "680 W",
+            "product_number_ru": "680 Вт",
+            "product_number_en": "680 W",
+            "product_image": null
+        },
+        {
+            "id": 2479,
+            "product_customer": "Working temperature",
+            "product_customer_uz": "Ishlash harorati",
+            "product_customer_ru": "Рабочая температура",
+            "product_customer_en": "Working temperature",
+            "product_number": "150℃-180℃",
+            "product_number_uz": "150℃-180℃",
+            "product_number_ru": "150℃-180℃",
+            "product_number_en": "150℃-180℃",
+            "product_image": null
+        },
+        {
+            "id": 2480,
+            "product_customer": "Gluing way",
+            "product_customer_uz": "Yelimlash usuli",
+            "product_customer_ru": "Способ склеивания",
+            "product_customer_en": "Gluing way",
+            "product_number": "double side",
+            "product_number_uz": "2 tomonlama",
+            "product_number_ru": "двусторонний",
+            "product_number_en": "double side",
+            "product_image": null
+        },
+        {
+            "id": 2482,
+            "product_customer": "Glue speed",
+            "product_customer_uz": "Yelimlash tezligi",
+            "product_customer_ru": "Скорость клея",
+            "product_customer_en": "Glue speed",
+            "product_number": "0-5 m/min",
+            "product_number_uz": "0-5 m/min",
+            "product_number_ru": "0-5 м/мин",
+            "product_number_en": "0-5 m/min",
+            "product_image": null
+        },
+        {
+            "id": 2485,
+            "product_customer": "Power",
+            "product_customer_uz": "Quvvat",
+            "product_customer_ru": "Напряжение",
+            "product_customer_en": "Power",
+            "product_number": "220/50 V/Hz",
+            "product_number_uz": "220/50 V/Hz",
+            "product_number_ru": "220 В/50 Гц",
+            "product_number_en": "220/50 V/Hz",
+            "product_image": null
+        },
+        {
+            "id": 2486,
+            "product_customer": "Packing size",
+            "product_customer_uz": "Qadoqlangan hajmi",
+            "product_customer_ru": "Размер упаковки",
+            "product_customer_en": "Packing size",
+            "product_number": "375 x 362 x 425 mm",
+            "product_number_uz": "375 x 362 x 425 mm",
+            "product_number_ru": "375 х 362 х 425 мм",
+            "product_number_en": "375 x 362 x 425 mm",
+            "product_image": null
+        },
+        {
+            "id": 2487,
+            "product_customer": "Gross weight",
+            "product_customer_uz": "Qadoqdagi og'irligi",
+            "product_customer_ru": "Вес брутто",
+            "product_customer_en": "Gross weight",
+            "product_number": "17 kg",
+            "product_number_uz": "17 kg",
+            "product_number_ru": "17 кг",
+            "product_number_en": "17 kg",
+            "product_image": null
+        }
+    ],
+    "images": [
+        {
+            "id": 826,
+            "image": "https://api.uskunalar.uz/media/products/my60.png"
+        },
+        {
+            "id": 827,
+            "image": "https://api.uskunalar.uz/media/products/my60_1.png"
+        },
+        {
+            "id": 828,
+            "image": "https://api.uskunalar.uz/media/products/my60_2.png"
+        },
+        {
+            "id": 1733,
+            "image": "https://api.uskunalar.uz/media/products/my60_3.jpg"
+        }
+    ],
+    "title": "Edge banding machine US-MY-60",
+    "title_uz": "Kromka,  tasma yopishtirish uskunasi US-MY-60",
+    "title_ru": "Кромка, Кромкооблицовочная машина  US-MY-60",
+    "title_en": "Edge banding machine US-MY-60",
+    "pdf": "https://api.uskunalar.uz/media/pdf/my60.png",
+    "city": null,
+    "city_uz": null,
+    "city_ru": null,
+    "city_en": null,
+    "CIP": false,
+    "DAF": false,
+    "EXW": true,
+    "FCA": false,
+    "price": "630",
+    "discount": "0",
+    "inbox": "",
+    "delivery": "Под заказ",
+    "short_description": "<p style=\"text-align:justify\">The US-MY-60 model wood edger works at 220 V/50 Hz. The working temperature is 150℃-180℃, and the gluing method is two-sided. The gluing equipment consumes a total of 680 W per hour, and the gluing speed of the equipment is 0-5 meters per minute. The total package size of the device is <span style=\"color:#e74c3c\">375&nbsp;х 362&nbsp;х 425</span>&nbsp; mm and the package weight is <span style=\"color:#e74c3c\">17 </span>kg.</p>\r\n\r\n<p style=\"text-align:justify\">&nbsp;</p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/meb_my.png\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/meb_my.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/remew.png\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/ibg-priew.png\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/my_struc.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/my_60_6.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>",
+    "short_description_uz": "<p style=\"text-align:justify\">US-MY-60 modeldagi tasma yopishtirish&nbsp;(kromka)&nbsp;uskunasi&nbsp;220 V/50 Hz&nbsp;kuchlanishda ishlaydi.&nbsp;Ishlash harorati esa 150 ℃-180 ℃ bo&#39;lib,&nbsp;yelimlash usuli ikki&nbsp;tomonlama hisoblanadi.&nbsp;Kromka uskunasi soatiga umumiy 680&nbsp;W&nbsp;quvvat sarflaydi,&nbsp;uskunaning yelimlash tezligi esa daqiqasiga 0-5&nbsp;metrgacha bo&#39;ladi.&nbsp;Uskunaning umumiy qadoqdagi o&#39;lchami <span style=\"color:#e74c3c\">375&nbsp;х 362&nbsp;х 425</span>&nbsp;mm hamda qadoqdagi og&#39;irligi <span style=\"color:#e74c3c\">17&nbsp;</span>kgni tashkil etadi.</p>\r\n\r\n<p style=\"text-align:justify\">&nbsp;</p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/meb_my.png\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/meb_my.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/remew.png\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/ibg-priew.png\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/my_struc.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/my_60_6.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>",
+    "short_description_ru": "<p style=\"text-align:justify\">Обрезной станок по дереву модели US-MY-60 работает при напряжении 220 В/50 Гц. Рабочая температура составляет 150 ℃-180 ℃, а метод склейки двусторонний. Оборудование для склеивания потребляет в общей сложности 680 Вт в час, а скорость склеивания оборудования составляет 0-5 метров в минуту. Общий размер упаковки устройства составляет <span style=\"color:#e74c3c\">375&nbsp;х 362&nbsp;х 425</span>&nbsp;мм, а вес упаковки составляет <span style=\"color:#e74c3c\">17 </span>кг.</p>\r\n\r\n<p style=\"text-align:justify\">&nbsp;</p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/meb_my.png\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/meb_my.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/remew.png\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/ibg-priew.png\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/my_struc.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/my_60_6.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>",
+    "short_description_en": "<p style=\"text-align:justify\">The US-MY-60 model wood edger works at 220 V/50 Hz. The working temperature is 150℃-180℃, and the gluing method is two-sided. The gluing equipment consumes a total of 680 W per hour, and the gluing speed of the equipment is 0-5 meters per minute. The total package size of the device is <span style=\"color:#e74c3c\">375&nbsp;х 362&nbsp;х 425</span>&nbsp; mm and the package weight is <span style=\"color:#e74c3c\">17 </span>kg.</p>\r\n\r\n<p style=\"text-align:justify\">&nbsp;</p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/meb_my.png\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/meb_my.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/remew.png\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/ibg-priew.png\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/my_struc.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/my_60_6.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>",
+    "long_description": "<p><strong>US-MY-60 portable edge banding machine.&nbsp;</strong></p>\r\n\r\n<p><strong>Technical parameters of the equipment:</strong></p>\r\n\r\n<ul>\r\n\t<li>Model:&nbsp;US-MY-60.</li>\r\n\t<li>Voltage: 680 W.</li>\r\n\t<li>Power: 220 V/50 Hz.</li>\r\n\t<li>Working Temperature: 150℃-180℃.</li>\r\n\t<li>Belt thickness:&nbsp;0.3-3 mm.</li>\r\n\t<li>Belt width:&nbsp;10-60&nbsp;mm.</li>\r\n\t<li>Gluing way:&nbsp;double side.</li>\r\n\t<li>Shape of panel:&nbsp;straight, curve, (radius 25 mm).</li>\r\n\t<li>Glue speed: 0-5&nbsp;m/min.</li>\r\n\t<li>Packing size:&nbsp;375&nbsp;x 362&nbsp;x 425&nbsp;mm.</li>\r\n\t<li>Gross weight:&nbsp;17&nbsp;kg.</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"6\" style=\"background-color:#333333; text-align:center\"><span style=\"color:#ffffff\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Samples of products</span></span></span></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center; width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/94_orl.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"text-align:center; width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/01/pu-04.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"text-align:center; width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/dsc7_hat.jpg\" style=\"height:90%; width:90%\" /></td>\r\n\t\t\t<td style=\"text-align:center; width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/01/image_2022-117.png\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"text-align:center; width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/01/im_2221133.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"text-align:center; width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/01/hoduo.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>",
+    "long_description_uz": "<p><strong>Kromka, portativ tasma yopishtirish uskunasi US-MY-60.&nbsp;</strong></p>\r\n\r\n<p><strong>Uskunaning texnik ko&rsquo;rsatkichlari:</strong></p>\r\n\r\n<ul>\r\n\t<li>Model: US-MY-60.</li>\r\n\t<li>Volt (V):&nbsp;680 W.</li>\r\n\t<li>Quvvat: 220/50&nbsp;V/Hz.</li>\r\n\t<li>Ishlash harorati: 150 ℃ -180 ℃.</li>\r\n\t<li>Tasmasining qalinligi: 0,3-3 mm.</li>\r\n\t<li>Tasmasining&nbsp;kengligi: 10-60&nbsp;mm.</li>\r\n\t<li>Yelimlash usuli: 2&nbsp;tomonlama.</li>\r\n\t<li>Yelimlash tezligi: 0-5&nbsp;m/min.</li>\r\n\t<li>Qadoqlangan hajmi: 375 х 362 х 425 mm.</li>\r\n\t<li>Umumiy qadoqdagi&nbsp;og&#39;irligi: 17&nbsp;kg.</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"6\" style=\"background-color:#333333; text-align:center\"><span style=\"color:#ffffff\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Mahsulotlardan namunalar</span></span></span></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center; width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/94_orl.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"text-align:center; width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/01/pu-04.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"text-align:center; width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/dsc7_hat.jpg\" style=\"height:90%; width:90%\" /></td>\r\n\t\t\t<td style=\"text-align:center; width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/01/image_2022-117.png\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"text-align:center; width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/01/im_2221133.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"text-align:center; width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/01/hoduo.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p style=\"text-align:center\">&nbsp;</p>",
+    "long_description_ru": "<p><strong>Кромка, Портативный кромкооблицовочный станок US-MY-60.&nbsp;</strong></p>\r\n\r\n<p><strong>Технические показатели оборудования:</strong></p>\r\n\r\n<ul>\r\n\t<li>Модель: US-MY-60.</li>\r\n\t<li>Вольтаж:&nbsp;680 Вт.</li>\r\n\t<li>Напряжение: 220 В/50 Гц.</li>\r\n\t<li>Рабочая температура: 150℃-180℃.</li>\r\n\t<li>Толщина ремня: 0,3-3 мм.</li>\r\n\t<li>Ширина ремня 10-60&nbsp;мм.</li>\r\n\t<li>Способ склеивания: двусторонний.</li>\r\n\t<li>Форма панели: прямая, изогнутая (радиус 25 мм).</li>\r\n\t<li>Скорость клея: 0-5&nbsp;м/мин.</li>\r\n\t<li>Размер упаковки: 375 х 362 х 425 мм.</li>\r\n\t<li>Вес брутто: 17&nbsp;кг.</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"6\" style=\"background-color:#333333; text-align:center\"><span style=\"color:#ffffff\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Образцы продукции</span></span></span></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/94_orl.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"text-align:center; width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/01/pu-04.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"text-align:center; width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/dsc7_hat.jpg\" style=\"height:90%; width:90%\" /></td>\r\n\t\t\t<td style=\"text-align:center; width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/01/image_2022-117.png\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"text-align:center; width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/01/im_2221133.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"text-align:center; width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/01/hoduo.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>",
+    "long_description_en": "<p><strong>US-MY-60 portable edge banding machine.&nbsp;</strong></p>\r\n\r\n<p><strong>Technical parameters of the equipment:</strong></p>\r\n\r\n<ul>\r\n\t<li>Model:&nbsp;US-MY-60.</li>\r\n\t<li>Voltage: 680 W.</li>\r\n\t<li>Power: 220 V/50 Hz.</li>\r\n\t<li>Working Temperature: 150℃-180℃.</li>\r\n\t<li>Belt thickness:&nbsp;0.3-3 mm.</li>\r\n\t<li>Belt width:&nbsp;10-60&nbsp;mm.</li>\r\n\t<li>Gluing way:&nbsp;double side.</li>\r\n\t<li>Shape of panel:&nbsp;straight, curve, (radius 25 mm).</li>\r\n\t<li>Glue speed: 0-5&nbsp;m/min.</li>\r\n\t<li>Packing size:&nbsp;375&nbsp;x 362&nbsp;x 425&nbsp;mm.</li>\r\n\t<li>Gross weight:&nbsp;17&nbsp;kg.</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:100%\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td colspan=\"6\" style=\"background-color:#333333; text-align:center\"><span style=\"color:#ffffff\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Samples of products</span></span></span></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"text-align:center; width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/94_orl.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"text-align:center; width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/01/pu-04.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"text-align:center; width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/02/dsc7_hat.jpg\" style=\"height:90%; width:90%\" /></td>\r\n\t\t\t<td style=\"text-align:center; width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/01/image_2022-117.png\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"text-align:center; width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/01/im_2221133.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t\t<td style=\"text-align:center; width:15%\"><img alt=\"Kromka\" src=\"/media/uploads/2022/11/01/hoduo.jpg\" style=\"height:100%; width:100%\" /></td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>",
+    "price_title": null,
+    "price_title_uz": null,
+    "price_title_ru": null,
+    "price_title_en": null,
+    "price_image": null,
+    "price_short_description": null,
+    "price_short_description_uz": null,
+    "price_short_description_ru": null,
+    "price_short_description_en": null,
+    "price_long_description": null,
+    "price_long_description_uz": null,
+    "price_long_description_ru": null,
+    "price_long_description_en": null,
+    "video": null,
+    "view_count": 4445,
+    "created_at": "2022-11-02T13:30:15.483000+05:00",
+    "country": 1
+}
