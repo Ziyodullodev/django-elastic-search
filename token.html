@@ -15,9 +15,7 @@
 <html lang="en-us" dir="ltr" x-data="{ adminTheme: $persist('auto').as('adminTheme') }" x-bind:class="{'dark': adminTheme === 'dark' || (adminTheme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches)}" x-cloak>
 
 <head>
-    <title>
-    Log in | Django site admin
-</title>
+    <title>Select product feature to change | Django site admin</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,0,0" rel="stylesheet"/>
@@ -34,11 +32,29 @@
     
 
     
-    
-    
+  
+
+  
+
+
+    <script src="/admin/jsi18n/"></script>
+
+  
+
+  
 
 
     
+    
+    <script src="/static/admin/js/vendor/jquery/jquery.js"></script>
+<script src="/static/admin/js/jquery.init.js"></script>
+<script src="/static/admin/js/core.js"></script>
+<script src="/static/admin/js/admin/RelatedObjectLookups.js"></script>
+<script src="/static/admin/js/actions.js"></script>
+<script src="/static/admin/js/urlify.js"></script>
+<script src="/static/admin/js/prepopulate.js"></script>
+<script src="/static/admin/js/vendor/xregexp/xregexp.js"></script>
+
 
     <script src="/static/unfold/js/app.js"></script>
 
@@ -83,95 +99,700 @@
     
 </head>
 
-<body class="antialiased bg-white font-sans text-gray-500 dark:bg-gray-900 dark:text-gray-400 bg-gray-50 login dark:bg-gray-900" data-admin-utc-offset="18000" x-data="{ sidebarMobileOpen: false, sidebarDesktopOpen: true }">
+<body class="antialiased bg-white font-sans text-gray-500 dark:bg-gray-900 dark:text-gray-400  app-api model-productfeature change-list" data-admin-utc-offset="18000" x-data="{ sidebarMobileOpen: false, sidebarDesktopOpen: true }">
     
-    <div class="flex min-h-screen">
-        <div class="flex flex-grow items-center justify-center mx-auto px-4">
-            <div class="w-full sm:w-96">
-                <h1 class="font-semibold mb-10">
-                    <span class="block text-gray-700 dark:text-gray-200">Welcome back to</span>
-                    <span class="block text-primary-600 text-xl">Django site admin</span>
-                </h1>
-
+    <div id="page" class="flex min-h-screen">
+        
+            
                 
 
+<div class="relative z-50">
+    <div @click="sidebarDesktopOpen = !sidebarDesktopOpen"
+         hx-get="/admin/toggle-sidebar/"
+         hx-swap="none"
+         class="block bg-white border cursor-pointer fixed flex h-6 hidden items-center justify-center rounded-full text-gray-500 top-5 -translate-x-1/2 w-6 z-50 xl:flex dark:bg-gray-800 dark:border-gray-700 dark:text-gray-200"
+         :class="{'ml-6 rotate-180': !sidebarDesktopOpen, 'ml-72': sidebarDesktopOpen}">
+        <span class="material-symbols-outlined md-16">
+            first_page
+        </span>
+    </div>
 
+    <div @click="sidebarMobileOpen = !sidebarMobileOpen"
+         class="fixed bottom-0 bg-gray-700 flex cursor-pointer flex items-center left-0 mb-2 ml-2 justify-center px-2 py-1 rounded-full shadow-sm text-xs text-white uppercase z-50 xl:hidden"
+        :class="{'ml-72 -translate-x-1/2': sidebarMobileOpen}">
+        Menu
+    </div>
 
+    <div :class="{'xl:block': sidebarDesktopOpen, 'xl:hidden': !sidebarDesktopOpen, 'max-xl:fixed': sidebarMobileOpen, 'hidden': !sidebarMobileOpen }">
+        
 
+<div class="relative min-w-sidebar transition-width w-sidebar z-30">
+    <nav id="nav-sidebar" class="bg-gray-50 border-r border-gray-200 flex flex-col fixed max-h-screen min-h-screen min-w-sidebar transition-width w-sidebar dark:bg-gray-900 dark:border-gray-800">
+        <div class="border-b border-gray-200 mb-5 py-3 dark:border-gray-800">
+            <div class="flex font-medium h-10 items-center px-6 text-gray-700 dark:text-gray-200">
                 
+                    
 
 
+    <a  href="/admin/">
+        <img src="/static/logo.png" class="h-8 mr-4" alt="Home"/>
+    </a>
 
-
-                
-
-                <form action="/admin/login/?next=/admin/api/subcategory/add/" method="post" id="login-form">
-                    <input type="hidden" name="csrfmiddlewaretoken" value="vsnU5yTSkSHGJRKgzPkcpwQjKfM385H05UBl1r7gvNLJY6orSREklywBxmjmBPkN">
-
-                    <div class="flex group mb-6 flex-col last:mb-4">
-    <label for="id_username" class="block font-medium mb-2 text-gray-900 text-sm dark:text-gray-200">
-    Username
-
-    
-        <span class="text-red-600">*</span>
-    
-</label>
-
-
-    <input type="text" name="username" autofocus autocapitalize="none" autocomplete="username" maxlength="150" class="border bg-white font-medium rounded-md shadow-sm text-gray-500 text-sm focus:ring focus:ring-primary-300 focus:border-primary-600 focus:outline-none group-[.errors]:border-red-600 group-[.errors]:focus:ring-red-200 dark:bg-gray-900 dark:border-gray-700 dark:text-gray-400 dark:focus:border-primary-600 dark:focus:ring-primary-700 dark:focus:ring-opacity-50 dark:group-[.errors]:border-red-500 dark:group-[.errors]:focus:ring-red-600/40 px-3 py-2 w-full" required id="id_username">
-
-    
-
-
-    
-
-</div>
-
-
-                    <div class="flex group mb-6 flex-col last:mb-4">
-    <label for="id_password" class="block font-medium mb-2 text-gray-900 text-sm dark:text-gray-200">
-    Password
-
-    
-        <span class="text-red-600">*</span>
-    
-</label>
-
-
-    <input type="password" name="password" autocomplete="current-password" class="border bg-white font-medium rounded-md shadow-sm text-gray-500 text-sm focus:ring focus:ring-primary-300 focus:border-primary-600 focus:outline-none group-[.errors]:border-red-600 group-[.errors]:focus:ring-red-200 dark:bg-gray-900 dark:border-gray-700 dark:text-gray-400 dark:focus:border-primary-600 dark:focus:ring-primary-700 dark:focus:ring-opacity-50 dark:group-[.errors]:border-red-500 dark:group-[.errors]:focus:ring-red-600/40 px-3 py-2 w-full" required id="id_password">
-
-    
-
-
-    
-
-</div>
 
 
                     
+<h1 id="site-name"><a href="/admin/">  </a></h1>
 
-                    
-
-                    <div class="submit-row">
-                        <button type="submit" class="bg-primary-600 border border-transparent flex flex-row font-semibold group items-center justify-center py-2 rounded-md text-sm text-white w-full">
-                            Log in
-
-                            <i class="material-symbols-outlined ml-2 relative right-0 text-lg transition-all group-hover:-right-1">arrow_forward</i>
-                        </button>
-                    </div>
-                </form>
+                
             </div>
+        </div>
+
+        
+
+    <div class="mb-5 mx-3 relative">
+        <div class="bg-white border flex items-center overflow-hidden rounded-md shadow-sm focus-within:ring focus-within:ring-primary-300 focus-within:border-primary-600 dark:bg-gray-900 dark:border-gray-700 dark:focus-within:border-primary-600 dark:focus-within:ring-primary-700 dark:focus-within:ring-opacity-50">
+            <span class="material-symbols-outlined md-18 pl-3 text-gray-400">manage_search</span>
+
+            <input type="search"
+                   id="nav-filter"
+                   name="s"
+                   hx-get="/admin/search/"
+                   hx-trigger="keyup changed delay:500ms, search"
+                   hx-target="#search-results"
+                   hx-indicator=".htmx-indicator"
+                   class="flex-grow font-medium overflow-hidden pl-2 pr-3 py-2 text-gray-500 text-sm focus:outline-none dark:bg-gray-900 dark:text-gray-400"
+                   placeholder="Search apps and models..." aria-label="Filter navigation items" />
+            <div class="absolute htmx-indicator mt-0.5 opacity-0 right-2 top-2">
+                <span class="animate-spin material-symbols-outlined md-18 text-gray-300">sync</span>
+            </div>
+        </div>
+
+        <div id="search-results"></div>
+    </div>
+
+
+
+        
+            
+
+
+    <div class="overflow-auto">
+        
+            
+                <hr class="border-t border-gray-200 mx-6 my-2 dark:border-gray-800" />
+            
 
             
-                <div class="absolute left-0 ml-4 mt-4 top-0">
-                    <a href="/" class="flex font-medium items-center text-sm text-primary-600">
-                        <span class="material-symbols-outlined mr-2">arrow_back</span> Return to site
-                    </a>
+                <h3 class="font-medium my-3 px-6 text-gray-900 text-sm first:mt-0 dark:text-gray-200">
+                    Navigation
+                </h3>
+            
+
+            <ol class="px-6">
+                
+                    <li>
+                        <a href="/admin/"
+                           class="border border-transparent flex h-11 items-center -mx-3 px-3 py-2 rounded-md text-gray-500 hover:text-gray-700 dark:text-gray-400 hover:dark:text-gray-200">
+                            
+                                <span class="material-symbols-outlined md-18 mr-3 w-4.5">
+                                    dashboard
+                                </span>
+                            
+
+                            <span class="text-sm">
+                                Dashboard
+                            </span>
+
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/admin/api/customuser/"
+                           class="border border-transparent flex h-11 items-center -mx-3 px-3 py-2 rounded-md text-gray-500 hover:text-gray-700 dark:text-gray-400 hover:dark:text-gray-200">
+                            
+                                <span class="material-symbols-outlined md-18 mr-3 w-4.5">
+                                    people
+                                </span>
+                            
+
+                            <span class="text-sm">
+                                Users
+                            </span>
+
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/admin/api/product/"
+                           class="border border-transparent flex h-11 items-center -mx-3 px-3 py-2 rounded-md text-gray-500 hover:text-gray-700 dark:text-gray-400 hover:dark:text-gray-200">
+                            
+                                <span class="material-symbols-outlined md-18 mr-3 w-4.5">
+                                    box
+                                </span>
+                            
+
+                            <span class="text-sm">
+                                Products
+                            </span>
+
+                            
+                        </a>
+                    </li>
+                
+            </ol>
+        
+    </div>
+
+    
+        <div class="mt-auto" x-data="{ openAllApplications: false }">
+            <a class="cursor-pointer flex items-center px-6 py-3 text-gray-500 text-sm transition-all hover:text-gray-700 dark:text-gray-400 hover:dark:text-gray-200" x-on:click="openAllApplications = !openAllApplications">
+                <span class="material-symbols-outlined md-18 mr-3">
+                    apps
+                </span>
+
+                <span>
+                    All applications
+                </span>
+            </a>
+
+            <div class="absolute bottom-0 left-72 right-0 top-0 z-50 peer-checked:block" x-cloak x-show="openAllApplications">
+                <label class="absolute bg-gray-900 bg-opacity-80 backdrop-blur-sm bottom-0 left-0 right-0 top-0 z-10 w-screen" for="show-applications"></label>
+
+                <div class="bg-white flex flex-col h-full overflow-x-hidden overflow-y-auto py-5 px-8 relative text-sm w-80 z-20 dark:bg-gray-900 dark:border-r dark:border-gray-800" x-on:click.outside="openAllApplications = false" x-on:keydown.escape.window="openAllApplications = false">
+                    
+                        <div class="mb-6 last:mb-0">
+                            <h3 class="mb-4 font-medium overflow-hidden text-ellipsis text-gray-700 whitespace-nowrap dark:text-gray-200">
+                                Api
+                            </h3>
+
+                            <ul>
+                                
+                                    <li class="block mb-4 last:mb-0">
+                                        <a href="/admin/api/backgroundbanner/" class="block overflow-hidden text-ellipsis text-gray-500 transition-all whitespace-nowrap hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
+                                            Background banners
+                                        </a>
+                                    </li>
+                                
+                                    <li class="block mb-4 last:mb-0">
+                                        <a href="/admin/api/banner/" class="block overflow-hidden text-ellipsis text-gray-500 transition-all whitespace-nowrap hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
+                                            Banners
+                                        </a>
+                                    </li>
+                                
+                                    <li class="block mb-4 last:mb-0">
+                                        <a href="/admin/api/blog/" class="block overflow-hidden text-ellipsis text-gray-500 transition-all whitespace-nowrap hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
+                                            Blogs
+                                        </a>
+                                    </li>
+                                
+                                    <li class="block mb-4 last:mb-0">
+                                        <a href="/admin/api/category/" class="block overflow-hidden text-ellipsis text-gray-500 transition-all whitespace-nowrap hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
+                                            Categories
+                                        </a>
+                                    </li>
+                                
+                                    <li class="block mb-4 last:mb-0">
+                                        <a href="/admin/api/linecategory/" class="block overflow-hidden text-ellipsis text-gray-500 transition-all whitespace-nowrap hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
+                                            LineCategories
+                                        </a>
+                                    </li>
+                                
+                                    <li class="block mb-4 last:mb-0">
+                                        <a href="/admin/api/line/" class="block overflow-hidden text-ellipsis text-gray-500 transition-all whitespace-nowrap hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
+                                            Lines
+                                        </a>
+                                    </li>
+                                
+                                    <li class="block mb-4 last:mb-0">
+                                        <a href="/admin/api/order/" class="block overflow-hidden text-ellipsis text-gray-500 transition-all whitespace-nowrap hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
+                                            Orders
+                                        </a>
+                                    </li>
+                                
+                                    <li class="block mb-4 last:mb-0">
+                                        <a href="/admin/api/partnerlogos/" class="block overflow-hidden text-ellipsis text-gray-500 transition-all whitespace-nowrap hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
+                                            Partner logoss
+                                        </a>
+                                    </li>
+                                
+                                    <li class="block mb-4 last:mb-0">
+                                        <a href="/admin/api/productfeature/" class="block overflow-hidden text-ellipsis text-gray-500 transition-all whitespace-nowrap hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
+                                            Product features
+                                        </a>
+                                    </li>
+                                
+                                    <li class="block mb-4 last:mb-0">
+                                        <a href="/admin/api/productimage/" class="block overflow-hidden text-ellipsis text-gray-500 transition-all whitespace-nowrap hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
+                                            Product images
+                                        </a>
+                                    </li>
+                                
+                                    <li class="block mb-4 last:mb-0">
+                                        <a href="/admin/api/product/" class="block overflow-hidden text-ellipsis text-gray-500 transition-all whitespace-nowrap hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
+                                            Products
+                                        </a>
+                                    </li>
+                                
+                                    <li class="block mb-4 last:mb-0">
+                                        <a href="/admin/api/subcategory/" class="block overflow-hidden text-ellipsis text-gray-500 transition-all whitespace-nowrap hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
+                                            SubCategories
+                                        </a>
+                                    </li>
+                                
+                                    <li class="block mb-4 last:mb-0">
+                                        <a href="/admin/api/supplier/" class="block overflow-hidden text-ellipsis text-gray-500 transition-all whitespace-nowrap hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
+                                            Suppliers
+                                        </a>
+                                    </li>
+                                
+                                    <li class="block mb-4 last:mb-0">
+                                        <a href="/admin/api/customuser/" class="block overflow-hidden text-ellipsis text-gray-500 transition-all whitespace-nowrap hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
+                                            Users
+                                        </a>
+                                    </li>
+                                
+                                    <li class="block mb-4 last:mb-0">
+                                        <a href="/admin/api/video/" class="block overflow-hidden text-ellipsis text-gray-500 transition-all whitespace-nowrap hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
+                                            Videos
+                                        </a>
+                                    </li>
+                                
+                                    <li class="block mb-4 last:mb-0">
+                                        <a href="/admin/api/work/" class="block overflow-hidden text-ellipsis text-gray-500 transition-all whitespace-nowrap hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
+                                            Works
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                    
+                        <div class="mb-6 last:mb-0">
+                            <h3 class="mb-4 font-medium overflow-hidden text-ellipsis text-gray-700 whitespace-nowrap dark:text-gray-200">
+                                Auth Token
+                            </h3>
+
+                            <ul>
+                                
+                                    <li class="block mb-4 last:mb-0">
+                                        <a href="/admin/authtoken/tokenproxy/" class="block overflow-hidden text-ellipsis text-gray-500 transition-all whitespace-nowrap hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
+                                            Tokens
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                    
+                        <div class="mb-6 last:mb-0">
+                            <h3 class="mb-4 font-medium overflow-hidden text-ellipsis text-gray-700 whitespace-nowrap dark:text-gray-200">
+                                Authentication and Authorization
+                            </h3>
+
+                            <ul>
+                                
+                                    <li class="block mb-4 last:mb-0">
+                                        <a href="/admin/auth/group/" class="block overflow-hidden text-ellipsis text-gray-500 transition-all whitespace-nowrap hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
+                                            Groups
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                    
+                        <div class="mb-6 last:mb-0">
+                            <h3 class="mb-4 font-medium overflow-hidden text-ellipsis text-gray-700 whitespace-nowrap dark:text-gray-200">
+                                Sites
+                            </h3>
+
+                            <ul>
+                                
+                                    <li class="block mb-4 last:mb-0">
+                                        <a href="/admin/sites/site/" class="block overflow-hidden text-ellipsis text-gray-500 transition-all whitespace-nowrap hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
+                                            Sites
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                    
                 </div>
+            </div>
+        </div>
+    
+
+
+        
+    </nav>
+</div>
+
+    </div>
+</div>
+
+            
+        
+
+        <div id="main" class="flex-grow">
+            
+                
+                    <div class="border-b border-gray-200 mb-6 px-4 lg:px-12 dark:border-gray-800">
+                        <div class="container flex items-center h-16 mx-auto py-4">
+                            <div id="header-inner" class="flex items-center w-full">
+                                <div class="flex items-center w-full">
+                                    
+                                        
+                                            
+                                                
+
+<div class="flex-grow font-medium min-w-0 mr-3">
+    <h1 class="overflow-hidden text-ellipsis text-sm whitespace-nowrap xl:text-base text-gray-700 dark:text-gray-200">
+        
+            
+
+            Select product feature to change
+
+            
+
+            
+        
+    </h1>
+</div>
+
+                                            
+
+                                            
+                                                
+
+<div class="flex items-center ml-auto">
+    <div class="flex flex-row group items-center leading-none relative">
+        <div class="flex gap-4">
+            
+
+<div class="relative" x-data="{ openTheme: false }">
+    <a class="block cursor-pointer leading-none hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200" x-on:click="openTheme = !openTheme">
+        <span class="material-symbols-outlined">
+            <span x-text="adminTheme == 'dark' && 'dark_mode' || adminTheme == 'light' && 'light_mode' || 'computer'"></span>
+        </span>
+    </a>
+
+    <nav class="absolute bg-white border flex flex-col leading-none overflow-hidden py-1 -right-2 rounded shadow-lg text-sm text-gray-500 top-7 w-40 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400" x-cloak x-show="openTheme" @click.outside="openTheme = false">
+        <a class="cursor-pointer flex flex-row leading-none mx-1 px-3 py-1.5 rounded hover:bg-gray-100 hover:text-gray-700 dark:hover:bg-gray-700 dark:hover:text-gray-200"
+           x-on:click="adminTheme = 'dark'"
+           x-bind:class="adminTheme == 'dark' && 'text-primary-600 dark:text-primary-500 dark:hover:!text-primary-500 hover:!text-primary-600'">
+            <span class="material-symbols-outlined mr-2">dark_mode</span>
+            <span class="leading-none self-center">Dark</span>
+        </a>
+
+        <a class="cursor-pointer flex flex-row mx-1 px-3 py-1.5 rounded hover:bg-gray-100 hover:text-gray-700 dark:hover:bg-gray-700 dark:hover:text-gray-200"
+           x-on:click="adminTheme = 'light'"
+           x-bind:class="adminTheme == 'light'  && 'text-primary-600 dark:text-primary-500 dark:hover:!text-primary-500 hover:!text-primary-600'">
+            <span class="material-symbols-outlined mr-2">light_mode</span>
+            <span class="leading-none self-center">Light</span>
+        </a>
+
+        <a class="cursor-pointer flex flex-row mx-1 px-3 py-1.5 rounded hover:bg-gray-100 hover:text-gray-700 dark:hover:bg-gray-700 dark:hover:text-gray-200"
+           x-on:click="adminTheme = 'auto'"
+           x-bind:class="adminTheme == 'auto' && 'text-primary-600 dark:text-primary-500 dark:hover:!text-primary-500 hover:!text-primary-600'">
+            <span class="material-symbols-outlined mr-2">computer</span>
+            <span class="leading-none self-center">System</span>
+        </a>
+    </nav>
+</div>
+
+
+            
+
+<div class="relative" x-data="{ openUserLinks: false }">
+    <a class="block cursor-pointer hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200" @click="openUserLinks = !openUserLinks">
+        <span class="material-symbols-outlined">person</span>
+    </a>
+
+    <nav class="absolute bg-white border flex flex-col leading-none overflow-hidden py-1 -right-2 rounded shadow-lg text-sm text-gray-500 top-7 w-52 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400" x-cloak x-show="openUserLinks" @click.outside="openUserLinks = false">
+        <div class="border-b border-gray-100 flex flex-row flex-shrink-0 items-start justify-start mb-1 pb-1 dark:border-gray-700">
+            <span class="block mx-1 px-3 py-2 truncate">
+                admin
+            </span>
+        </div>
+
+        
+            <a href="/" target="_blank" class="mx-1 px-3 py-2 rounded hover:bg-gray-100 hover:text-gray-700 dark:hover:bg-gray-700 dark:hover:text-gray-200">
+                View site
+            </a>
+        
+
+        
+            <a href="/admin/password_change/" class="mx-1 px-3 py-2 rounded hover:bg-gray-100 hover:text-gray-700 dark:hover:bg-gray-700 dark:hover:text-gray-200">
+                Change password
+            </a>
+        
+
+        <div class="border-t mt-1 pt-1 dark:border-gray-700">
+            <a href="/admin/logout/" class="bg-none block mx-1 px-3 py-2 text-red-500 rounded hover:bg-red-100 dark:hover:bg-red-500/20 dark:hover:text-red-500">
+                Log out
+            </a>
+        </div>
+    </nav>
+</div>
+
+        </div>
+    </div>
+
+    
+        
+    
+        <ul class="object-tools">
+            
+                
+    
+        
+
+
+    
+    
+
+
+
+    <li class="flex flex-row items-center">
+        <span class="block bg-gray-200 h-5 mx-4 w-px dark:bg-gray-700"></span>
+
+        <a href="/admin/api/productfeature/add/" class="addlink bg-primary-600 flex items-center h-9 justify-center -my-1 rounded-full w-9" title="Add product feature">
+            <span class="material-symbols-outlined text-white">add</span>
+        </a>
+    </li>
+
+
+    
+
+
+            
+        </ul>
+    
+
+    
+</div>
+
+                                            
+                                        
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+            
+
+            
+                <div class="px-4 lg:px-12"><div class="container mb-6 mx-auto -my-3 lg:mb-12"><ul class="flex"><li class="text-gray-500 text-xs dark:text-gray-400"><a href="/admin/">Home</a><span class="mx-2 text-gray-200 dark:text-gray-600">/</span></li><li class="text-gray-500 text-xs dark:text-gray-400"><a href="/admin/api/">Api</a><span class="mx-2 text-gray-200 dark:text-gray-600">/</span></li><li class="text-gray-500 text-xs dark:text-gray-400">
+    
+        Product features
+    
+</li></ul></div></div>
+            
+
+            
+                <div class="px-4 lg:px-12">
+                    <div class="container mx-auto">
+                        
+    <ul>
+        
+            <li class="mb-3 px-3 py-3 rounded-md text-sm last:mb-8 bg-green-100 text-green-600 dark:bg-green-500/20 dark:border-green-500/10">
+                The product feature “<a href="/admin/api/productfeature/5/change/">Model - US-TPS-SP350F</a>” was added successfully.
+            </li>
+        
+    </ul>
+
+
+                    </div>
+                </div>
+            
+
+            <div class="px-4 pb-12 lg:px-12">
+                <div id="content" class="container mx-auto ">
+                    
+                        
+    
+
+
+
+                    
+
+                    
+    <div id="content-main">
+        
+
+        <div class="flex -mx-4 module" id="changelist">
+            <div class="changelist-form-container flex-grow px-4" x-data="{ filterOpen: false }">
+                
+                    
+                
+
+                <form id="changelist-form" method="post" novalidate>
+                    <input type="hidden" name="csrfmiddlewaretoken" value="Xc90vX4rxjgvqSveKAUuC5vDTCc7iIWNczpPfSbUY7dWmBuqCd2HGx89X0r7U9Lq">
+
+                    
+
+                    
+                        
+                            
+                                <div class="bg-gray-50 flex flex-col gap-3 mb-4 p-3 rounded-md md:flex-row dark:bg-gray-800">
+                                    
+                                        
+
+
+
+                                    
+
+                                    
+                                        
+
+<div class="actions flex flex-col md:flex-row md:items-center">
+    
+        <div class="flex">
+            
+                
+                    
+
+                    <select name="action" class="border bg-white font-medium rounded-md shadow-sm text-gray-500 text-sm focus:ring focus:ring-primary-300 focus:border-primary-600 focus:outline-none group-[.errors]:border-red-600 group-[.errors]:focus:ring-red-200 dark:bg-gray-900 dark:border-gray-700 dark:text-gray-400 dark:focus:border-primary-600 dark:focus:ring-primary-700 dark:focus:ring-opacity-50 dark:group-[.errors]:border-red-500 dark:group-[.errors]:focus:ring-red-600/40 px-3 py-2 w-full pr-8 max-w-2xl appearance-none truncate w-72" required>
+  <option value="" selected>Select action</option>
+
+  <option value="delete_selected">Delete selected product features</option>
+
+</select>
+
+                    
+                
+                    
+
+                    <input type="hidden" name="select_across" value="0" class="select-across">
+
+                    
+                
+            
+
+            
+                <button type="submit" class="bg-white border flex items-center h-9.5 ml-1 px-2 rounded shadow-sm text-gray-400 w-9.5 hover:text-gray-700 focus:outline-none dark:bg-gray-900 dark:border-gray-700 dark:text-gray-500 dark:hover:text-gray-200" title="Run the selected action" name="index" value="0">
+                    <span class="material-symbols-outlined md-18">chevron_right</span>
+                </button>
             
         </div>
 
         
+            
+                <div class="hidden md:block">
+                    <span class="action-counter ml-4 text-sm text-gray-500 dark:text-gray-400" data-actions-icnt="1">
+                        0 of 1 selected
+                    </span>
+
+                    
+                </div>
+            
+        
+    
+</div>
+
+                                    
+
+                                    
+                                        
+                                    
+                                </div>
+                            
+                        
+
+                        
+
+
+
+
+    <table id="result_list" class="border-gray-200 border-spacing-none border-separate text-gray-700 w-full dark:text-gray-400 lg:border lg:rounded-md lg:shadow-sm lg:dark:border-gray-800">
+        <thead class="hidden lg:table-header-group">
+            <tr>
+                
+                    <th class="align-middle font-medium px-3 py-2 text-left text-gray-400 text-sm w-10" scope="col" class="action-checkbox-column">
+                        <div class="flex items-center">
+                            <div class="text">
+                                
+                                    <span><input type="checkbox" id="action-toggle"></span>
+                                
+                            </div>
+
+                            
+                        </div>
+                    </th>
+                
+                    <th class="align-middle font-medium px-3 py-2 text-left text-gray-400 text-sm " scope="col" class="column-__str__">
+                        <div class="flex items-center">
+                            <div class="text">
+                                
+                                    <span>Product feature</span>
+                                
+                            </div>
+
+                            
+                        </div>
+                    </th>
+                
+            </tr>
+        </thead>
+
+        <tbody>
+            
+                
+
+                <tr class=" block border mb-3 rounded-md shadow-sm lg:table-row lg:border-none lg:mb-0 lg:shadow-none dark:border-gray-800">
+                    
+                        <td class="action-checkbox align-middle flex items-center px-3 py-2 text-left text-sm before:block before:capitalize before:content-[attr(data-label)] before:mr-auto before:text-gray-500 lg:before:hidden lg:border-t lg:border-gray-200 lg:table-cell dark:before:text-gray-400 dark:lg:border-gray-800" data-label="Select record"><input type="checkbox" name="_selected_action" value="5" class="action-select"></td>
+                    
+                        <th class="field-__str__ align-middle flex border-t border-gray-200 font-normal px-3 py-2 text-left text-sm before:flex before:capitalize before:content-[attr(data-label)] before:items-center before:mr-auto before:text-gray-500 first:border-t-0 dark:before:text-gray-400 lg:before:hidden lg:first:border-t lg:py-3 lg:table-cell dark:border-gray-800" data-label="product feature"><a href="/admin/api/productfeature/5/change/" class="text-gray-700 dark:text-gray-200" >Model - US-TPS-SP350F</a></th>
+                    
+                    
+
+
+
+                </tr>
+            
+        </tbody>
+    </table>
+
+
+
+                        
+                            
+
+<div class="bg-gray-50 flex my-4 items-center p-3 rounded-md text-sm text-gray-700 dark:bg-gray-800 dark:text-gray-300">
+    
+
+    <div class="text-gray-400">
+        
+
+        1
+
+        
+            product feature
+        
+    </div>
+
+    
+
+    
+</div>
+
+                        
+                    
+                </form>
+
+                
+            </div>
+        </div>
+    </div>
+
+
+                    
+                </div>
+            </div>
+
+            
+        </div>
     </div>
 
 
